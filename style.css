@@ -7,6 +7,10 @@
   font-size: 25px;
 }
 
+.blue {
+  color: #0069ff;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -88,6 +92,26 @@ section.welcome .deploy h2 {
 section.welcome .col-md-4{
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.background-light-grey {
+  background-color: #f3f5f9
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.light-grey {
+  color: #565656;
+}
+
+section.customer img {
+  width: 100%;
 }
 
 @media (min-width: 1200px) {
