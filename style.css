@@ -1,3 +1,7 @@
+.navbar {
+  margin-bottom: 0;
+}
+
 .navbar-default .navbar-brand {
   color: #0069ff;
   font-size: 25px;
@@ -15,4 +19,79 @@
 .nav.navbar-nav.navbar-right li a {
   color: #0069ff;
   border: 1px solid #0069ff;
+}
+
+.background-light-blue {
+  background-color: #0248ff;
+}
+
+.white {
+  color:white;
+}
+
+.welcome h1 {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.welcome h3 {
+  line-height: 30px;
+}
+
+.welcome .col-md-6 {
+  margin: 150px 0 150px 0;
+}
+
+.deploy {
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+}
+
+.border-radius {
+  border-radius: 5%;
+}
+
+section.welcome .deploy input,
+section.welcome .deploy button,
+section.welcome .deploy>a {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+a {
+  color:black;
+}
+
+section.welcome .deploy p a {
+  color: #005fe6;
+}
+
+section.welcome .deploy button {
+  background-color: #15cd72;
+}
+
+section.welcome .deploy>a:hover {
+  background-color: #dbdbdb;
+}
+
+section.welcome .deploy p {
+  margin-top: 30px;
+}
+
+section.welcome .deploy h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+section.welcome .col-md-4{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
