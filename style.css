@@ -156,7 +156,13 @@ section.development_teams small {
   margin-bottom: 30px;
 }
 
-
+section.create_your_account a {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+}
 
 @media (min-width: 1200px) {
   .container {
