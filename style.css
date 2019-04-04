@@ -124,6 +124,11 @@ section.deploy_and_scale i {
   font-size: 30px;
 }
 
+section.designed_for_developers img {
+  width: 70%;
+  margin: 50px auto;
+}
+
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
