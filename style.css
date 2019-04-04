@@ -68,10 +68,6 @@ a {
   color:black;
 }
 
-section.welcome .deploy p a {
-  color: #005fe6;
-}
-
 section.welcome .deploy button {
   background-color: #15cd72;
 }
@@ -120,7 +116,8 @@ section.deploy_and_scale ul li {
   margin-bottom: 40px;
 }
 
-section.deploy_and_scale i {
+section.deploy_and_scale i,
+section.the_features_your_business_needs i {
   font-size: 30px;
 }
 
