@@ -138,6 +138,26 @@ section.service_world hr {
   margin: 10px auto;
 }
 
+section.development_teams .box {
+  width: 60%;
+  margin: 30px auto;
+  background-color: white;
+  padding-bottom: 80px;
+}
+
+section.development_teams .box img {
+  width: 30%;
+  height: auto;
+  margin: 30px 0;
+}
+
+section.development_teams small {
+  display: block;
+  margin-bottom: 30px;
+}
+
+
+
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
