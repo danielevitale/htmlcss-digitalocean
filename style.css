@@ -204,4 +204,8 @@ footer li {
     margin-bottom: 50px;
   }
 
+  section.welcome .col-md-4{
+    margin-top: 150px;
+  }
+
 }
