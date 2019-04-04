@@ -38,7 +38,7 @@
   line-height: 60px;
 }
 
-.welcome h3 {
+.line-height30 {
   line-height: 30px;
 }
 
@@ -95,7 +95,7 @@ section.welcome .col-md-4{
 }
 
 .background-light-grey {
-  background-color: #f3f5f9
+  background-color: #dddddd;
 }
 
 .mt-50 {
@@ -112,6 +112,16 @@ section.welcome .col-md-4{
 
 section.customer img {
   width: 100%;
+}
+
+section.deploy_and_scale ul li {
+  list-style-type: none;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+section.deploy_and_scale i {
+  font-size: 30px;
 }
 
 @media (min-width: 1200px) {
