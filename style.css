@@ -53,7 +53,7 @@
 }
 
 .border-radius {
-  border-radius: 5%;
+  border-radius: 5px;
 }
 
 section.welcome .deploy input,
@@ -70,6 +70,7 @@ a {
 
 section.welcome .deploy button {
   background-color: #15cd72;
+  font-size: 20px;
 }
 
 section.welcome .deploy>a:hover {
@@ -158,14 +159,49 @@ section.development_teams small {
 
 section.create_your_account a {
   background-color: white;
-  border-radius: 5px;
   padding: 10px 20px;
   display: inline-block;
   margin-top: 20px;
+}
+
+footer p {
+  font-size: 17px;
+}
+
+footer p a{
+  color: #565656;
+}
+
+footer li {
+  font-size: 30px;
 }
 
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
   }
+}
+
+@media all and (max-width: 767px) {
+
+  .welcome .col-md-6 {
+    margin: 50px 0 50px 0;
+  }
+
+  #mt-0-xs {
+      margin-top: 0;
+  }
+
+  .mb-50-xs {
+    margin-bottom: 50px;
+  }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+
+  .mb-50-sm {
+    margin-bottom: 50px;
+  }
+
 }
