@@ -126,6 +126,18 @@ section.designed_for_developers img {
   margin: 50px auto;
 }
 
+.background-blue {
+  background-color: #07026d;
+}
+
+section.service_world a {
+  color: #00d7d2;
+}
+
+section.service_world hr {
+  margin: 10px auto;
+}
+
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
